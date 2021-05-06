@@ -1,0 +1,52 @@
+header {
+  text-align: center;
+  font-family: "Quantico", sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+  background-color: black;
+  border: 3px grey;
+  border-style: solid;
+  margin: 8px;
+  padding: 8px;
+}
+body {
+  background-image: url("supreme.png");
+  font-family: "Quantico", sans-serif;
+  font-size: 15px;
+}
+
+.knapp1 {
+  display: inline-block;
+  font-family: "Quantico", sans-serif;
+  background-color: black;
+  padding: 8px;
+  margin: 8px;
+  color: whitesmoke;
+  border: 2px grey;
+  border-style: solid;
+  text-decoration: none;
+  cursor: pointer;
+}
+table {
+  text-align: center;
+  font-family: "Quantico", sans-serif;
+  background-color: whitesmoke;
+  border: 3px black;
+  border-style: solid;
+  padding: 20px;
+}
+img {
+  width: 400px;
+  height: 200px;
+  background-color: none;
+  border: none;
+}
+.flex-container {
+  display: flex;
+  padding-left: 725px;
+}
+.flex-container > img {
+  justify-content: right;
+  width: 500px;
+  margin: 20px;
+}
